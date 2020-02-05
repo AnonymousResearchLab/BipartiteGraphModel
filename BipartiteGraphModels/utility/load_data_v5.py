@@ -4,9 +4,6 @@ import scipy.sparse as sp
 from time import time
 import pandas as pd
 
-np.random.seed(1103)
-rd.seed(1103)
-
 class Data(object):
     def __init__(self, path, batch_size):
         self.path = path

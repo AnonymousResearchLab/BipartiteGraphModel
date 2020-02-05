@@ -7,9 +7,6 @@ import pandas as pd
 # import numba as nb
 import concurrent.futures
 
-np.random.seed(1103)
-rd.seed(1103)
-
 class Data(object):
     def __init__(self, path, batch_size):
         self.path = path

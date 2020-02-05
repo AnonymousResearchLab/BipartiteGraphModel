@@ -4,10 +4,6 @@ import os
 import sys
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
-SEED = 1103
-np.random.seed(SEED)
-tf.set_random_seed(SEED)
-
 from utility.helper import *
 from utility.batch_test_v5 import *
 
