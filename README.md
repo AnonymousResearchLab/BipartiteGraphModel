@@ -1,2 +1,1 @@
-# GACSE
-GACSE for IJCAI2020
+# Bipartite Graph Model
